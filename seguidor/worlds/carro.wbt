@@ -20,7 +20,7 @@ RectangleArena {
   floorAppearance PBRAppearance {
     baseColorMap ImageTexture {
       url [
-        "../pistas/pista2.png"
+        "../pistas/pista.png"
       ]
     }
     roughness 1
@@ -28,7 +28,7 @@ RectangleArena {
   }
 }
 Robot {
-  translation -0.42532 0.684505 -5.93065e-05
+  translation -0.46532 0.684505 -5.93065e-05
   rotation 0 0 1 -1.5708
   children [
     Pose {
@@ -48,7 +48,7 @@ Robot {
           ]
           endPoint Solid {
             translation -0.01189709661020021 -2.15523462565631e-09 0.04698948605555564
-            rotation 8.476099042220674e-09 -0.9999999999999996 -3.347883165745272e-08 3.637527452897957
+            rotation 8.476099042313305e-09 -0.9999999999999996 -3.34788316578186e-08 3.637527452897957
             children [
               DEF RodaE Pose {
                 translation 0 0.055 0.025
@@ -88,8 +88,8 @@ Robot {
             }
           ]
           endPoint Solid {
-            translation 0.014729073732476106 2.156890836602258e-09 0.004797703305733016
-            rotation 8.123559740807986e-08 -0.9999999999999962 2.646952755819952e-08 0.629976816735929
+            translation 0.014729073732476094 2.156890836602258e-09 0.004797703305733033
+            rotation 8.123559740807646e-08 -0.9999999999999962 2.646952755819841e-08 0.629976816735929
             children [
               DEF RodaD Pose {
                 translation 0 -0.055 0.025
